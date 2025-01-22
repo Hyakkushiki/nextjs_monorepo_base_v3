@@ -2,7 +2,7 @@
   "name": "nextjs_monorepo_base",
   "private": true,
   "scripts": {
-    "dev": "pnpm --filter @nextjs_monorepo_base/web dev",
+    "web:dev": "pnpm --filter @nmb/web dev",
     "build": "pnpm --filter \"@nextjs_monorepo_base/*\" build",
     "clean": "pnpm -r exec rm -rf node_modules && rm -rf node_modules",
     "lint": "pnpm -r lint"

@@ -1,7 +1,16 @@
+'use client'
 import Image from "next/image";
 import styles from "./page.module.css";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
+  const router = useRouter()
+
+  const handleNavigation = () => {
+    // Navigate to the /test page
+    router.push('/test')
+  }
+
   return (
     <div className={styles.page}>
       <main className={styles.main}>
@@ -44,6 +53,11 @@ export default function Home() {
           >
             Read our docs
           </a>
+
+          <button onClick={handleNavigation}>
+            Go to Test Page
+          </button>
+
         </div>
       </main>
       <footer className={styles.footer}>
