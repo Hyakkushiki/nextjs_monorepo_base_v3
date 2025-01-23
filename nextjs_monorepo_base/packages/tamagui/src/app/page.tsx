@@ -1,5 +1,8 @@
+'use client'
 import Image from "next/image";
 import styles from "./page.module.css";
+
+import { Button } from 'tamagui'
 
 export default function Home() {
   return (
@@ -44,6 +47,9 @@ export default function Home() {
           >
             Read our docs
           </a>
+
+          <Button>Hello world!</Button>
+
         </div>
       </main>
       <footer className={styles.footer}>

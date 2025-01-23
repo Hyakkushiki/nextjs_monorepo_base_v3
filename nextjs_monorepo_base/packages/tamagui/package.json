@@ -1,5 +1,5 @@
 {
-  "name": "tamagui",
+  "name": "@nmb/ui",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,17 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tamagui/config": "^1.122.8",
+    "@tamagui/core": "^1.122.8",
+    "@tamagui/next-plugin": "^1.122.8",
+    "@tamagui/next-theme": "^1.122.8",
+    "@tamagui/polyfill-dev": "^1.122.8",
+    "next": "15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.6"
+    "tamagui": "^1.122.8"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.1.6",
-    "@eslint/eslintrc": "^3"
+    "typescript": "^5"
   }
 }
