@@ -9,6 +9,7 @@
 // }
 
 // packages/ui/src/components/Button.tsx
+'use client'
 import { Button as TamaguiButton } from 'tamagui'
 
 export const MyButton = (props:any) => {
