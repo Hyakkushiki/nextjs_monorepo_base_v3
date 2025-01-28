@@ -25,3 +25,6 @@ setup
 - add NextTamaguiProvider.tsx following tamagui docs (https://tamagui.dev/docs/guides/next-js#applayouttsx)
 - pnpm install @tamagui/next-theme
 - pnpm add @tamagui/core @tamagui/polyfill-dev tamagui
+
+# 2) reverser
+- made reverser project
