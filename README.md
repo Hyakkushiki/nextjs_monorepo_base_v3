@@ -26,5 +26,8 @@ setup
 - pnpm install @tamagui/next-theme
 - pnpm add @tamagui/core @tamagui/polyfill-dev tamagui
 
-# 2) reverser
-- made reverser project
+# 2) reversee
+- added 3 package files from tamagui's yarn monorepo
+- changed out the package references to [workspace:*], then pnpm install
+- [ pnpm dlx create-next-app@"14.2.14” ] - check dev if running corretcly
+- copy over package.json dependencies - dev still runs
